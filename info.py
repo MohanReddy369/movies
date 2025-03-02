@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23398580'))
 API_HASH = environ.get('API_HASH', 'b097227de20d589b49ed41d96d5bb29c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7911623694:AAFpZY2QiaiVrpGZviCkeL5jxJls_C2xYNg')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8132314177:AAFTvL9OXlkv8-02ewCV_6jpahnM-hVbCgs')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7660633418').split()]
@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+dn2RdhYQUVA0Y2
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', ' -1002456492253').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jack:jack@jack.1dize.mongodb.net/?retryWrites=true&w=majority&appName=Jack")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jack:jack6231@jack.1dize.mongodb.net/?retryWrites=true&w=majority&appName=Jack")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Jack")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
