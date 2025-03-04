@@ -54,7 +54,6 @@ SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arolinks.com')
 #SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 #TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 #THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
-VERIFY_GAP = int(environ.get('VERIFY_GAP', "14400"))  
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
