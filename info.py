@@ -46,7 +46,7 @@ IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'True'), True)
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "4b97fdeb9fae9477d3050d7037085c0480bae4b4")
+SHORTENER_API = environ.get("SHORTENER_API", "https://arolinks.com/api?api=4b97fdeb9fae9477d3050d7037085c0480bae4b4&url=yourdestinationlink.com&alias=CustomAlias")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arolinks.com')
 VERIFY_GAP = 120  # Set verification time to 2 minutes (120 seconds)
 
