@@ -38,13 +38,14 @@ VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c
 # Shortener links (Only keeping the second shortener active)
 # SHORTENER_API = environ.get("SHORTENER_API", "4b97fdeb9fae9477d3050d7037085c0480bae4b4")
 # SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arolinks.com')
+
 SHORTENER_API2 = environ.get("SHORTENER_API2", "4b97fdeb9fae9477d3050d7037085c0480bae4b4")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'arolinks.com')
+
 # SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 # SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = 10  # Set verification time to 10 seconds
 
 #---------------------------------------------------------------
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
@@ -77,6 +78,5 @@ SETTINGS = {
     'imdb': IMDB,
     'link': LINK_MODE,
     'is_verify': IS_VERIFY,
-    'verify_time': TWO_VERIFY_GAP,
-    'third_verify_time': THREE_VERIFY_GAP
+    'verify_time': TWO_VERIFY_GAP  # Only second verification remains
 }
