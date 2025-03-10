@@ -13,6 +13,11 @@ async def deletemultiplemedia(bot, message):
     media = getattr(message, message.media.value, None)
 
     if media:
+        # Skip files that are NOT MP4, MKV, or WEBM
+        if media.mime_type not in ['video/mp4', 'video/x-matroska', 'video/webm']:
+            logger.info(f"Skipped file {media.file_name} with unsupported format: {media.mime_type}")
+            return  # Exit the function if it's not an allowed format
+
         file_id, _ = unpack_new_file_id(media.file_id)
         try:
             result = await Media.find_one({"file_id": file_id})
