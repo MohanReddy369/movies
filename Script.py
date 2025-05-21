@@ -120,7 +120,10 @@ User - {}"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 
-    NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🙄</b>"""
+    NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🙄</b>
+
+<b>ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ:</b> <a href="https://t.me/+nfKsnvEmHdplZmI1">Request Group</a>"""
+
     
     I_CUDNT = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
 
