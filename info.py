@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 START_IMG = (environ.get('START_IMG', 'https://th.bing.com/th/id/OIP.GxL9VDyE9LYjLCNg0O-KHgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', '')
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://www.bing.com/images/search?view=detailV2&ccid=aQJ7k2bY&id=8706B4636F11E24EED2E5BCCDDA4142F2E23632F&thid=OIP.aQJ7k2bYs2yWZFHSgbC9rAHaHa&mediaurl=https%3a%2f%2fbriespopupparties.com%2fwp-content%2fuploads%2f2019%2f05%2fhello.jpg&exph=626&expw=626&q=hello&simid=608002181466095889&FORM=IRPRST&ck=3CEC08780D4EEDFC82F1425F55626097&selectedIndex=13&itb=0')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', ''))
