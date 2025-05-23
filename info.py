@@ -72,7 +72,7 @@ START_IMG = (environ.get('START_IMG', 'https://th.bing.com/th/id/OIP.GxL9VDyE9LY
 FORCESUB_IMG = environ.get('FORCESUB_IMG', '')
 REFER_PICS = (environ.get("REFER_PICS", "")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/4d9a2828ada5e6146e7ef-8468504e4c17377beb.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', ''))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/4d9a2828ada5e6146e7ef-8468504e4c17377beb.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
